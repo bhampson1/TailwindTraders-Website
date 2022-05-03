@@ -1,7 +1,7 @@
 variables:
   azureSubscription: TTapp
   resourcegroup: cloud-shell-storage-northeurope
-  location: 'West Europe'
+  location: West Europe
   ImageName: website
 
 steps:
