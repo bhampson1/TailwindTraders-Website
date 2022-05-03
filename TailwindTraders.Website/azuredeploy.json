@@ -4,7 +4,7 @@
   "parameters": {
     "siteName": {
       "type": "string",	
-      "defaultValue": "TailwindTraders Website"    
+      "defaultValue": "TailwindTraders"    
     },
     "siteLocation": {
       "type": "string",
