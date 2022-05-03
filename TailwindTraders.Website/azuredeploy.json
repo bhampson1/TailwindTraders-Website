@@ -3,7 +3,8 @@
   "contentVersion": "1.0.0.1",
   "parameters": {
     "siteName": {
-      "type": "string"
+      "type": "string",	
+      "defaultValue": "TailwindTraders Website"    
     },
     "siteLocation": {
       "type": "string",
