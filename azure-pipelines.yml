@@ -14,7 +14,7 @@ steps:
     location: $(location)
     csmFile: TailwindTraders.Website/Deploy/deployment.json
 
-- task:  keesschollaart.arm-outputs.arm-outputs.ARM Outputs@5
+- task:  keesschollaart.arm-outputs.arm-outputs.ARM Outputs@6
   displayName: ARM Outputs
   inputs:
     ConnectedServiceNameARM: $(azureSubscription)
