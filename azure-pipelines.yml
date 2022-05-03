@@ -14,13 +14,11 @@ steps:
     location: $(location)
     csmFile: TailwindTraders.Website/Deploy/deployment.json
 
-- task: AzureResourceManagerTemplateDeployment@3
+task: keesschollaart.arm-outputs.arm-outputs.ARM Outputs@5
   displayName: ARM Outputs
   inputs:
-    ConnectedServiceName: $(azureSubscription)
+    ConnectedServiceNameARM: $(azureSubscription)
     resourceGroupName: $(resourcegroup)
-    location: 'North Europe'
-    csmFile: TailwindTraders.Website/azuredeploy.json
 
 - task: Docker@1
   displayName: 'Build an image'
