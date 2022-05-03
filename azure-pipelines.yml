@@ -1,8 +1,8 @@
 variables:
-  azureSubscription: TTapp
-  resourcegroup: cloud-shell-storage-northeurope
-  location: West Europe
-  ImageName: website
+  azureSubscription: 'TTapp'
+  resourcegroup: 'cloud-shell-storage-northeurope'
+  location: 'West Europe'
+  ImageName: 'website'
 
 steps:
 - task: AzureResourceGroupDeployment@2
