@@ -1,5 +1,5 @@
 variables:
-  azureSubscription: 'TTapp1'
+  azureSubscription: 'TTapp'
   resourcegroup: 'cloud-shell-storage-northeurope1'
   location: 'West Europe1'
   ImageName: 'website1'
